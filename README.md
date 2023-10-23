@@ -76,7 +76,7 @@ Supported environments are:
 - Refer to fixtures when asserting static data to ensure consistency.
 
 ## Reporting
-After running the tests, Cypress will automatically generate detailed reports. These can be found in `cypress/videos` and `cypress/screenshots` directories, providing visual verification of each test run.
+After running the tests, Cypress will automatically generate photos of any failing tests. These can be found in `cypress/screenshots` directories.
 
 ## Notes
 - The JSON files in the `fixtures` directory are used for static test data. Ensure any
