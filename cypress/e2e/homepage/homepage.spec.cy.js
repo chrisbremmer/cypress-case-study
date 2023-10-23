@@ -14,9 +14,6 @@ describe("Homepage Tests", () => {
           url: "https://cdn.contentstack.io/v3/content_types/home_page/entries/*",
         }).as("homepageData");
   
-      //   cy.closeSignUpForm();
-        // cy.closeLocaleDialog();
-  
         // Wait for the intercept to complete and store the data
         cy.wait("@homepageData").then((interception) => {
           homepageData = interception.response.body.entries[0].modular_blocks;
