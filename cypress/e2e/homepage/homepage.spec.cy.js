@@ -15,7 +15,7 @@ describe("Homepage Tests", () => {
         }).as("homepageData");
   
       //   cy.closeSignUpForm();
-        cy.closeLocaleDialog();
+        // cy.closeLocaleDialog();
   
         // Wait for the intercept to complete and store the data
         cy.wait("@homepageData").then((interception) => {
