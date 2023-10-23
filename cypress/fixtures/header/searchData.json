@@ -1,0 +1,9 @@
+{
+  "searchData": {
+    "inputPlaceholder": "Search Vuori",
+    "popularSuggestionsTitle": "Trending searches",
+    "suggestionsTitle": "Search suggestions",
+    "popularProductsTitle": "Trending products",
+    "productsTitle": "Product matches"
+  }
+}
