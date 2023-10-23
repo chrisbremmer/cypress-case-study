@@ -79,4 +79,5 @@ Supported environments are:
 After running the tests, Cypress will automatically generate photos of any failing tests. These can be found in `cypress/screenshots` directories.
 
 ## Notes
-- The JSON files in the `fixtures` directory are used for static test data. Ensure any
+- The JSON files in the fixtures directory are used for static test data. 
+- Ensure you have the necessary environment variables set before running the tests.
