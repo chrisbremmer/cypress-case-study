@@ -6,7 +6,6 @@ module.exports = defineConfig({
     baseUrl: 'https://vuoriclothing.com', // Default base URL for end-to-end tests
     setupNodeEvents(on, config) {
       // Event listeners for Node can be added here
-    },
-    "video": true,
+    }
   },
 });
